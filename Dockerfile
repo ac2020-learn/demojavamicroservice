@@ -13,7 +13,7 @@ RUN ls -l
 
 RUN chmod +x gradlew
 
-# RUN ls -l 
+ RUN ls -l 
 
 # Build a release artifact.
 #RUN mvn package -DskipTests
